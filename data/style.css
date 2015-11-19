@@ -1,0 +1,11 @@
+body {
+    counter-reset: gdln;
+}
+
+.kix-paragraphrenderer::before {
+    counter-increment: gdln;
+    content: counter(gdln);
+    position: relative;
+    left: -4em;
+    float: left;
+}

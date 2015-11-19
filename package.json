@@ -1,0 +1,16 @@
+{
+  "title": "Google Docs Line Numbers",
+  "name": "gdocs-line-numbers",
+  "version": "1.0.0",
+  "description": "Adds line numbers to Google Docs",
+  "main": "index.js",
+  "author": "Andreas Wagner",
+  "engines": {
+    "firefox": ">=38.0a1"
+  },
+  "license": "GPLv3",
+  "keywords": [
+    "jetpack",
+    "google docs"
+  ]
+}
