@@ -2,10 +2,15 @@ body {
     counter-reset: gdln;
 }
 
-.kix-paragraphrenderer::before {
+.kix-lineview::before {
     counter-increment: gdln;
     content: counter(gdln);
     position: relative;
     left: -4em;
     float: left;
+    color: #999;
+}
+
+.kix-lineview:hover::before {
+    color: black;
 }
