@@ -12,5 +12,8 @@
   "keywords": [
     "jetpack",
     "google docs"
-  ]
+  ],
+  "permissions": {
+      "multiprocess": true
+  }
 }
