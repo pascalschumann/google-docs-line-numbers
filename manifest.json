@@ -1,0 +1,23 @@
+{
+    "applications": {
+        "gecko": {
+            "id": "@gdocs-line-numbers"
+        }
+    },
+    "author": "Andreas Wagner",
+    "content_scripts": [
+        {
+            "css": [
+                "style.css"
+            ],
+            "matches": [
+                "https://docs.google.com/document/*"
+            ]
+        }
+    ],
+    "description": "Adds line numbers to Google Docs",
+    "incognito": "spanning",
+    "manifest_version": 2,
+    "name": "Google Docs Line Numbers",
+    "version": "1.2.0"
+}
